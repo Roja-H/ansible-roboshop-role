@@ -1,0 +1,5 @@
+- name: configure {{ component }} component   # directly from command will load mongodb etc..
+  become: yes
+  hosts: "{{ component }}"
+  roles:  #this automatically loads a folder called roles in current working directory
+  - "{{ component }}"
