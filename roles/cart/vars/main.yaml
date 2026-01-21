@@ -1,2 +1,2 @@
-REDIS_HOST: redis.rojahanumantharaju.site
-CATALOGUE_HOST: catalogue.rojahanumantharaju.site
+REDIS_HOST: redis-{{env}}.rojahanumantharaju.site
+CATALOGUE_HOST: catalogue.backend-{{env}}.rojahanumantharaju.site

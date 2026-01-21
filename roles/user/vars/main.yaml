@@ -1,2 +1,2 @@
-REDIS_HOST: redis.rojahanumantharaju.site
-MONGODB_HOST: mongodb.rojahanumantharaju.site
+REDIS_HOST: redis-{{env}}.rojahanumantharaju.site
+MONGODB_HOST: mongodb-{{env}}.rojahanumantharaju.site
